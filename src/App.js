@@ -25,9 +25,11 @@ import Settings from './components/Settings/Settings.jsx';
 import SpacificOrderDetails from './components/SpacificOrderDetails/SpacificOrderDetails.jsx';
 import AllAddresses from './components/AllAddresses/AllAddresses.jsx';
 import AddAddress from './components/AddAddress/AddAddress.jsx';
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
-  let routes = createBrowserRouter([
+  let routes = createBrowserRouter(
+    [
     {
       path: '',
       element: <MainLayout />,
@@ -101,7 +103,11 @@ function App() {
       ]
 
     },
-  ])
+   ] ,
+  {
+    basename: "/novacart"
+  }
+  )
   return (
     <StoreContextprovider>
       <RouterProvider router={routes} />

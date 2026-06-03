@@ -161,7 +161,10 @@ const params = useParams()
 
 useEffect(() => {
   GetSpecificProductDetails()
- 
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
   // console.log(productDetails);
 
 }, [])
