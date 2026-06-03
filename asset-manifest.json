@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/novacart/static/css/main.60cefa20.css",
+    "main.js": "/novacart/static/js/main.44c4941a.js",
+    "static/js/453.3d35178b.chunk.js": "/novacart/static/js/453.3d35178b.chunk.js",
+    "static/media/1778142768066-019e0190-8de7-7699-83cc-d5d43b09805f.png": "/novacart/static/media/1778142768066-019e0190-8de7-7699-83cc-d5d43b09805f.e66b2bf3ef47d4cf9204.png",
+    "static/media/sinIn.png": "/novacart/static/media/sinIn.36e6ff2dede745b615fa.png",
+    "static/media/sinUp.png": "/novacart/static/media/sinUp.e0bd118c035201454a60.png",
+    "static/media/emptyCart.png": "/novacart/static/media/emptyCart.7633f2c8bc4cc736add5.png",
+    "static/media/wishlist2.png": "/novacart/static/media/wishlist2.a221ef1d6053fabb0870.png",
+    "static/media/logo.png": "/novacart/static/media/logo.46d7d0dbacb5b53cde97.png",
+    "static/media/404.png": "/novacart/static/media/404.1ce9e0ab450dcab45221.png",
+    "static/media/visaIMG2.png": "/novacart/static/media/visaIMG2.d2d7e33705247347e17b.png",
+    "static/media/cashIMG2.png": "/novacart/static/media/cashIMG2.568561fe2b07a121f7fc.png",
+    "static/media/slick.svg": "/novacart/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/novacart/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/novacart/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/novacart/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/novacart/index.html",
+    "main.60cefa20.css.map": "/novacart/static/css/main.60cefa20.css.map",
+    "main.44c4941a.js.map": "/novacart/static/js/main.44c4941a.js.map",
+    "453.3d35178b.chunk.js.map": "/novacart/static/js/453.3d35178b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60cefa20.css",
+    "static/js/main.44c4941a.js"
+  ]
+}
