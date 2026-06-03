@@ -1,70 +1,227 @@
-# Getting Started with Create React App
+# 🛒 NovaCart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and fully responsive E-Commerce web application built with React, providing a complete online shopping experience including authentication, product browsing, wishlist management, shopping cart, checkout, online payments, order tracking, address management, and product reviews.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Features
 
-### `npm start`
+### 🔐 Authentication & Authorization
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* User Registration and Login
+* JWT Authentication
+* Protected Routes
+* Authorization-based API access
+* Change Password while logged in
+* Forgot Password functionality
+* Email verification code for password recovery
+* Secure password reset process
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🛍️ Product Management
 
-### `npm test`
+* Browse products from external APIs
+* Product Details Page
+* Category-based browsing
+* Dynamic product loading
+* Product reviews and comments
+* Add comments
+* Edit comments
+* Delete comments
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ❤️ Wishlist
 
-### `npm run build`
+* Add products to wishlist
+* Remove products from wishlist
+* Persistent wishlist management
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🛒 Shopping Cart
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Add products to cart
+* Update product quantities
+* Remove products from cart
+* Real-time cart updates
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 💳 Checkout & Payments
 
-### `npm run eject`
+* Secure checkout process
+* Online payment integration
+* Cash on Delivery (COD) option
+* Order confirmation page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 📦 Order Management
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* View all orders
+* Order history page
+* Track order status
+* Detailed order information
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 📍 Address Management
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Add new addresses
+* Delete addresses
+* Manage multiple delivery addresses
 
-## Learn More
+### ⚙️ Account Settings
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Update email address
+* Change password
+* Manage account information
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 📱 User Experience
 
-### Code Splitting
+* Fully responsive design
+* Mobile-first approach
+* Modern and clean user interface
+* Loading states and error handling
+* Smooth navigation experience
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🛠️ Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Frontend
 
-### Making a Progressive Web App
+* React.js
+* React Router
+* Context API
+* Axios
+* CSS Modules
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Form Handling & Validation
 
-### Advanced Configuration
+* Formik
+* Yup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Authentication
 
-### Deployment
+* JWT Authentication
+* Protected Routes
+* Authorization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Development Concepts
 
-### `npm run build` fails to minify
+* React Hooks
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  * useState
+  * useEffect
+  * useContext
+* Single Page Application (SPA)
+* REST API Integration
+* Responsive Web Design
+
+---
+
+## 📱 Responsive Design
+
+The application is fully responsive and optimized for:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile Devices
+
+---
+
+## 🎯 Purpose
+
+NovaCart was developed to practice and demonstrate advanced React development skills by building a real-world E-Commerce platform. The project focuses on authentication, authorization, API integration, state management, payment workflows, order management, and creating a responsive shopping experience.
+
+---
+
+## 🚀 Live Demo
+
+https://pierejohn.github.io/novacart/
+
+---
+
+## 📂 Project Highlights
+
+* Built a complete E-Commerce workflow from authentication to checkout.
+* Implemented secure JWT-based authentication and authorization.
+* Integrated multiple REST APIs for products, users, orders, comments, addresses, and payments.
+* Developed reusable React components and scalable project architecture.
+* Implemented password recovery using email verification codes.
+* Created a responsive and user-friendly shopping experience.
+
+---
+
+
+## 🚀 Installation
+
+Follow these steps to run NovaCart locally on your machine.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/pierejohn/novacart.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd novacart
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm start
+```
+
+### 5. Open the Application
+
+Visit:
+
+```txt
+http://localhost:3000
+```
+
+The application will automatically reload whenever you make changes to the source code.
+
+---
+
+## 📦 Build for Production
+
+To create an optimized production build:
+
+```bash
+npm run build
+```
+
+The production-ready files will be generated inside the `build` folder.
+
+---
+
+## 🔧 Environment Configuration
+
+Create a `.env` file in the project root and add the required environment variables:
+
+```env
+REACT_APP_API_URL=your_api_url
+```
+
+Replace the value with your backend API endpoint.
+
+---
+
+## 📋 Requirements
+
+* Node.js 18+
+* npm 9+ (or newer)
+* Internet connection for API requests
+
+
+
+
+
+---
+## ⭐ Support
+
+If you like this project, consider giving it a star ⭐ on GitHub!
+
