@@ -11,10 +11,12 @@ export default function AllOrders() {
   let { getUserOrders, isLoadingForAllOrders, setIsLoadingForAllOrders } = useContext(storeContext)
   const [allUserOrders, setAllUserOrders] = useState([])
   const [fourOrders, setFourOrders] = useState([])
+  const [loading, setLoading] = useState(true)
   const [numberOfPages, setNumberOfPages] = useState(0)
   const [startAndEnd, setstartAndEnd] = useState([{ start: 0 }, { end: 0 }])
 const [activePage, setActivePage] = useState(1)
 const [numberOfProductInPagination, setnumberOfProductInPagination] = useState(5)
+
   async function getAllUserOrders(token) {
     let response = await getUserOrders(token)
     setAllUserOrders(response.data)
@@ -34,6 +36,7 @@ setActivePage(end/numberOfProductInPagination);
 
 
     setFourOrders(allUserOrders.slice(start, end))
+    setLoading(false)
   }
 
   function prevPage() {
@@ -71,7 +74,8 @@ setActivePage(numberOfPages)
 
   }, [])
   return (<>
-    <div className={`SpinnerScreen ${allUserOrders.length == 0 ? '' : 'fadeOut'}`}>
+  {/* allUserOrders.length == 0 */}
+    <div className={`SpinnerScreen ${loading ? '' : 'fadeOut'}`}>
       <span className='loader'></span>
     </div>
     <div className=' container px-5 mt-5'>
@@ -136,8 +140,7 @@ setActivePage(numberOfPages)
           }))
       }</div>
 
-
-      <nav className=''>
+{allUserOrders.length > 0?<nav className=''>
         <ul className={`${style.myPagination} py-4`}>
           <li onClick={() => prevPage()} className="cursor-pointer py-2"><a className={`${style.myPrevAndNext}`}>Previous</a></li>
           {
@@ -155,7 +158,8 @@ setActivePage(numberOfPages)
 
           <li className='cursor-pointer py-2' onClick={() => nextPage()} ><a className={`${style.myPrevAndNext}` }>Next</a></li>
         </ul>
-      </nav>
+      </nav>:""}
+      
 
 
 

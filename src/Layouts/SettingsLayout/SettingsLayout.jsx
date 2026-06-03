@@ -16,7 +16,7 @@ export default function SettingsLayout()
     function toggelNav()
     {
         setClosed(!closed)
-        console.log(closed);
+        // console.log(closed);
         
     }
     return (
@@ -26,25 +26,25 @@ export default function SettingsLayout()
                     <div className={`${style.settingsNav} ${(closed?'':style.open)} pe-0`}>
                         <div className={`${style.settingsStyle}`}>
 
-                            <NavLink
-                                to="settings"
+                            <NavLink onClick={()=>toggelNav()}
+                                to=""
                                 className={({ isActive }) =>`${style.settingsItemNav} py-4 ps-3 my-4 me-3 d-flex align-items-center justify-content-start ${isActive ? style.activeNav : ""}`}>
-                                <div className='d-flex align-items-baseline'>
+                                <div  className='d-flex align-items-baseline'>
                                     <div className={style.settingsLayout}>
                                         <CiSettings />
                                     </div>
 
 
-                                    <h4 className='mb-0 pb-0'>Settings</h4>
+                                    <h4  className='mb-0 pb-0'>Settings</h4>
 
                                 </div>
                             </NavLink>
 
-                            <NavLink
+                            <NavLink onClick={()=>toggelNav()}
                                 to="allOrders"
                                 className={({ isActive }) =>
                                     `${style.settingsItemNav} py-4 ps-3 my-4 me-3 d-flex align-items-center justify-content-start ${isActive ? style.activeNav : ""}`}>
-                                <div className='d-flex align-items-baseline'>
+                                <div  className='d-flex align-items-baseline'>
                                     <div className={style.settingsLayout}>
                                         <IoBagOutline />
                                     </div>
@@ -55,11 +55,11 @@ export default function SettingsLayout()
                                 </div>
                             </NavLink>
 
-                            <NavLink
+                            <NavLink onClick={()=>toggelNav()}
                                 to="wishList"
                                 className={({ isActive }) =>
                                     `${style.settingsItemNav} py-4 ps-3 my-4 me-3 d-flex align-items-center justify-content-start ${isActive ? style.activeNav : ""}`}>
-                                <div className='d-flex align-items-baseline'>
+                                <div  className='d-flex align-items-baseline'>
                                     <div className={style.settingsLayout}>
                                         <CiHeart />
                                     </div>
@@ -71,11 +71,11 @@ export default function SettingsLayout()
                             </NavLink>
 
 
-                            <NavLink
+                            <NavLink onClick={()=>toggelNav()}
                                 to="allAddresses"
                                 className={({ isActive }) =>
                                     `${style.settingsItemNav} py-4 ps-3 my-4 me-3 d-flex align-items-center justify-content-start ${isActive ? style.activeNav : ""}`}>
-                                <div className='d-flex align-items-baseline'>
+                                <div  className='d-flex align-items-baseline'>
                                     <div className={style.settingsLayout}>
                                         <IoLocationOutline />
                                     </div>
