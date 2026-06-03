@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/novacart/static/css/main.60cefa20.css",
-    "main.js": "/novacart/static/js/main.44c4941a.js",
+    "main.js": "/novacart/static/js/main.8681a3bc.js",
     "static/js/453.3d35178b.chunk.js": "/novacart/static/js/453.3d35178b.chunk.js",
     "static/media/1778142768066-019e0190-8de7-7699-83cc-d5d43b09805f.png": "/novacart/static/media/1778142768066-019e0190-8de7-7699-83cc-d5d43b09805f.e66b2bf3ef47d4cf9204.png",
     "static/media/sinIn.png": "/novacart/static/media/sinIn.36e6ff2dede745b615fa.png",
@@ -18,11 +18,11 @@
     "static/media/slick.woff": "/novacart/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/novacart/index.html",
     "main.60cefa20.css.map": "/novacart/static/css/main.60cefa20.css.map",
-    "main.44c4941a.js.map": "/novacart/static/js/main.44c4941a.js.map",
+    "main.8681a3bc.js.map": "/novacart/static/js/main.8681a3bc.js.map",
     "453.3d35178b.chunk.js.map": "/novacart/static/js/453.3d35178b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60cefa20.css",
-    "static/js/main.44c4941a.js"
+    "static/js/main.8681a3bc.js"
   ]
 }
