@@ -1,0 +1,14 @@
+.items
+{
+    border: 1px solid var(--main-color);
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.active
+{
+    color: aliceblue;
+    background-color: var(--main-color);
+
+}
+
+

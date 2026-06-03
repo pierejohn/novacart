@@ -27,7 +27,10 @@
 .App-link {
   color: #61dafb;
 }
-
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

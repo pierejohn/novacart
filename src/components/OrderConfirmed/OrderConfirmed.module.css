@@ -1,0 +1,70 @@
+.cartStyle
+{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.confirmIcon
+{
+    color: rgb(10, 150, 10);
+    font-size: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+
+}
+
+.orderSymmaryScrool
+{
+   
+    max-height: 25vh;
+    overflow-y: auto;
+}
+.itemInSummary
+{
+    padding: 15px;
+    border-bottom: 1px rgba(180, 178, 178, 0.473) solid;
+}
+.informcard
+{
+    padding: 10px 25px;
+    background-color:rgba(100, 233, 189, 0.205) ;
+    border-radius: 10px;
+    border: 1px solid rgba(100, 233, 189);
+}
+.cashyIcon
+{
+    width: 50px;
+    
+}
+.informIcon
+{
+    font-size:20px;
+    color: rgb(35, 155, 115);
+
+}
+.nextIcon{
+    font-size:40px;
+    color: rgb(10, 110, 150);
+
+}
+.nextCard{
+    padding: 10px 25px;
+    background-color:rgba(136, 183, 252, 0.226) ;
+    border-radius: 10px;
+    
+}
+.listIcon
+{
+    font-size:40px;
+    color: rgb(10, 110, 150);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

@@ -1,0 +1,84 @@
+.itemBg
+{
+    background-color: #E4E4E4;
+}
+.productCard
+{
+    /* cursor: pointer; */
+    transition: 0.5s;
+    
+    
+    
+
+}
+.productCardIner
+{
+    overflow: hidden;
+    background-color: white !important;
+    padding: 20px!important;
+    padding-bottom: 40px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    
+  
+}
+ .productLink{
+    text-decoration: none !important;
+    color: inherit;
+    display: block;
+}
+.productCard:hover
+{
+    transform: scale(1.1);
+    
+    
+}
+.addToCardBtn{
+    position:absolute;
+   bottom: -35px;
+    opacity: 1;
+    /* transition: opacity 1s,bottom 0.5s; */
+    
+
+}
+/* .productCard:hover .addToCardBtn,
+.productCard:focus-within .addToCardBtn {
+  bottom: -35px;
+  opacity: 1;
+} */
+
+
+.catName
+{
+    font-size: 0.8rem;
+}
+.price
+{
+    font-size: 15px;
+}
+.discoundNumber{
+    position: relative;
+    width: fit-content;
+   
+}
+.discoundNumber::after
+{
+    border-top: 1px solid gray;
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 50%;
+    left: 0;
+}
+
+
+
+ @media (max-width: 767.98px) {
+
+.productCard:hover
+{
+    transform: scale(1);
+    
+}
+
+ }

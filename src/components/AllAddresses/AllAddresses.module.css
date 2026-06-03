@@ -1,0 +1,69 @@
+.orderItems {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  height: fit-content;
+  left: 0%;
+  opacity: 1;
+  
+  
+}
+.iconBox
+{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(27, 192, 192, 0.247);
+  border-radius: 50px;
+  font-size: 2rem;
+}
+.closeBtn
+{
+
+    right: 20px;
+}
+.deletePage
+{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+     background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+    z-index: 50;
+}
+.modalBox {
+  width: 380px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  animation: pop 0.2s ease-in-out;
+}
+.deleteStyle {
+    position: relative;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.addAddressBtn
+{
+    background-color: rgb(24, 138, 24);
+    color: white;
+    transition: 0.5s;
+    
+}
+.addAddressBtn:hover
+{
+    transform: scale(1.1);
+    background-color: rgba(0, 128, 0, 0.788);
+    color: white;
+    
+}
+.fade
+{
+     opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}

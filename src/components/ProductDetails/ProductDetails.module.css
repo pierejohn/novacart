@@ -1,0 +1,84 @@
+.categoryLink{
+    text-decoration: none !important;
+    color: inherit;
+    display: block;
+}
+/* .addQuantatiToCard
+{
+
+} */
+.cardNumber{
+    width: 25px;
+    height: 25px;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+.widthFilContent
+{
+   
+    width: fit-content;
+}
+.addAndSubtract
+{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+.heartBtn
+{
+      width: 70px;
+      height: 70px;
+   
+}
+.heartBtn:hover
+{
+  
+    background-color: transparent !important;
+color: red !important;
+}
+.allProductImges
+{
+    cursor: pointer;
+}
+.reviewerIcon
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-color: gray;
+}
+.discoundNumber{
+    position: relative;
+    width: fit-content;
+   
+}
+.discoundNumber::after
+{
+    border-top: 1px solid gray;
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 50%;
+    left: 0;
+}
+.comment
+{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+
+}

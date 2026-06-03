@@ -1,0 +1,55 @@
+.container {
+  padding: 20px;
+}
+
+.slideItem {
+  padding: 10px;
+}
+
+.card {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* REMOVE CLICK BORDER / BLUE OUTLINE */
+.card:focus,
+.card:active,
+.card:focus-visible {
+  outline: none !important;
+  box-shadow: none;
+}
+
+/* hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.carosilImg {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .carosilImg {
+  transform: scale(1.05);
+}
+
+.categoryText {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.6);
+  text-align: center;
+}
